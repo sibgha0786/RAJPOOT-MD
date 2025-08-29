@@ -5,9 +5,9 @@ cmd({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "✅",
-    desc: "Get pairing code for PROxABDULLAH-MD Bot",
+    desc: "Get pairing code for RAJPOOT-MD Bot",
     category: "download",
-    use: ".pair +923237045919",
+    use: ".pair +923280355660",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
@@ -49,9 +49,9 @@ cmd({
     pattern: "pair2",
     alias: ["getpair2", "clonebot2"],
     react: "✅",
-    desc: "Get pairing code for PROxABDULLAH-MD bot",
+    desc: "Get pairing code for RAJPOOT-MD bot",
     category: "download",
-    use: ".pair +923237045919",
+    use: ".pair +923280355660",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
@@ -60,7 +60,7 @@ cmd({
         
         // Validate phone number format
         if (!phoneNumber || !phoneNumber.match(/^\+?\d{10,15}$/)) {
-            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +923237045919");
+            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +923280355660");
         }
 
         // Make API request to get pairing code
@@ -71,7 +71,7 @@ cmd({
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *PROxABDULLAH-MD PAIRING COMPLETED*";
+        const doneMessage = "> *RAJPOOT-MD PAIRING COMPLETED*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
