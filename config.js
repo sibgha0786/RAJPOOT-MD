@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY ꧁𓆩PʀᴏˣAʙᴅᴜʟʟᴀʜ𓆪꧂ 🤍*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY 𝗥𝗔𝗝𝗣𝗢𝗢𝗧-𝗠𝗗 🤍*",
 // set the auto reply massage on status reply  
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 // set true false for anti delete     
@@ -27,13 +27,13 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
-MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/lom1ep.png",
+MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://i.ibb.co/tPk2kjqK/temp.jpg",
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "꧁𓆩PʀᴏˣAʙᴅᴜʟʟᴀʜ𓆪꧂",
+BOT_NAME: process.env.BOT_NAME || "RAJPOOT-MD",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "꧁𓆩PʀᴏˣAʙᴅᴜʟʟᴀʜ𓆪꧂",
+STICKER_NAME: process.env.STICKER_NAME || "RAJPOOT-MD",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -41,13 +41,13 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923213509846",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923280355660",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "*꧁𓆩PʀᴏˣAʙᴅᴜʟʟᴀʜ𓆪꧂*",
+OWNER_NAME: process.env.OWNER_NAME || "*RAJPOOT-MD*",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꧁𓆩PʀᴏˣAʙᴅᴜʟʟᴀʜ𓆪꧂ ❣️*",
+DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝗥𝗔𝗝𝗣𝗢𝗢𝗧-𝗠𝗗 ❣️*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/lom1ep.png",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/tPk2kjqK/temp.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar ⚡",
 // add alive msg here 
