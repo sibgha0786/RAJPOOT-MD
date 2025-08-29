@@ -119,8 +119,8 @@ ${config.DESCRIPTION}`;
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363403870276377@newsletter',
-                    newsletterName: config.OWNER_NAME || 'PROxABDULLAH-MD Official',
+                    newsletterJid: '120363421154527865@newsletter',
+                    newsletterName: config.OWNER_NAME || 'RAJPOOT-MD Official',
                     serverMessageId: 143
                 }
             }
