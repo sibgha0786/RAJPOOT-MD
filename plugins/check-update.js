@@ -19,21 +19,21 @@ cmd({
         await reply("🔍 Checking for Arslan-MD updates...");
 
         // Fetch the latest commit hash from GitHub
-        const { data: commitData } = await axios.get("https://api.github.com/repos/abdullah219660/PROxABDULLAH-MD/commits/main");
+        const { data: commitData } = await axios.get("https://github.com/sibghaeffi347/RAJPOOT-MD.git");
         const latestCommitHash = commitData.sha;
 
         // Get the stored commit hash from the database
         const currentHash = await getCommitHash();
 
         if (latestCommitHash === currentHash) {
-            return reply("✅ Your PROxABDULLAH-MD bot is already up-to-date!");
+            return reply("✅ Your RAJPOOT-MD bot is already up-to-date!");
         }
 
-        await reply("🚀 Updating PROxABDULLAH-MD Bot...");
+        await reply("🚀 Updating RAJPOOT-MD Bot...");
 
         // Download the latest code
         const zipPath = path.join(__dirname, "latest.zip");
-        const { data: zipData } = await axios.get("https://github.com/abdullah219660/PROxABDULLAH-MD/archive/main.zip", { responseType: "arraybuffer" });
+        const { data: zipData } = await axios.get("https://github.com/sibghaeffi347/RAJPOOT-MD.git", { responseType: "arraybuffer" });
         fs.writeFileSync(zipPath, zipData);
 
         // Extract ZIP file
@@ -44,7 +44,7 @@ cmd({
 
         // Copy updated files, preserving config.js and app.json
         await reply("🔄 Replacing files...");
-        const sourcePath = path.join(extractPath, "PROxABDULLAH-MD-main");
+        const sourcePath = path.join(extractPath, "RAJPOOT-MD-main");
         const destinationPath = path.join(__dirname, '..');
         copyFolderSync(sourcePath, destinationPath);
 
