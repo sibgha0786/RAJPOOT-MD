@@ -305,7 +305,7 @@ cmd({
         document: { url: downloadUrl },
         mimetype: response.data.result.mimetype,
         fileName: response.data.result.fileName,
-        caption: "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ PROxABDULLAH-MD ❣️*"
+        caption: "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAJPOOT-MD ❣️*"
       }, { quoted: m });
 
       await conn.sendMessage(from, { react: { text: "✅", key: m.key } });
