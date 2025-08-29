@@ -39,19 +39,19 @@ ${truncatedCode}
 \`\`\`
 ╰──────────⊷  
 ⚡ Full file sent below 📂  
-*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ PROxABDULLAH-MD* 💜`;
+*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAJPOOT-MD* 💜`;
 
         // Send image with truncated source code
         await conn.sendMessage(from, { 
-            image: { url: `https://i.postimg.cc/6qsWSKXV/Screenshot-20250505-154041-1-1.jpg` },  // Image URL
+            image: { url: `https://i.ibb.co/tPk2kjqK/temp.jpg` },  // Image URL
             caption: formattedCode,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363403870276377@newsletter',
-                    newsletterName: 'PROxABDULLAH-MD Official',
+                    newsletterJid: '120363421154527865@newsletter',
+                    newsletterName: 'RAJPOOT-MD Official',
                     serverMessageId: 143
                 }
             }
