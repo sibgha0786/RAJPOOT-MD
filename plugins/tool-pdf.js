@@ -30,7 +30,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 caption: `
 *📄 PDF created successully!*
 
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ PROxABDULLAH-MD ❣️*`
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAJPOOT-MD ❣️*`
             }, { quoted: mek });
         });
 
