@@ -3,7 +3,7 @@ const { sleep } = require("../lib/functions");
 
 cmd({  
     pattern: "restart",  
-    desc: "Restart PROxABDULLAH-MD",  
+    desc: "Restart RAJPOOT-MD",  
     category: "owner",  
     filename: __filename  
 },  
