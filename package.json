@@ -1,12 +1,12 @@
 {
-  "name": "PROxABDULLAH-MD",
+  "name": "RAJPOOT-MD",
   "version": "4.5.0",
-  "description": "A WhatsApp Bot Created By PROxABDULLAH-MD Official",
+  "description": "A WhatsApp Bot Created By RAJPOOT-MD Official",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name PROxABDULLAH-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name RAJPOOT-MD",
     "stop": "pm2 stop PROxABDULLAH-MD",
-    "restart": "pm2 restart PROxABDULLAH-MD"
+    "restart": "pm2 restart RAJPOOT-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:baileys-pro@latest",
