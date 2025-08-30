@@ -65,7 +65,7 @@ cmd({
       `*${mediaType} Uploaded Successfully*\n\n` +
       `*Size:* ${formatBytes(mediaBuffer.length)}\n` +
       `*URL:* ${mediaUrl}\n\n` +
-      `> © Uploaded by PROxABDULLAH-MD ❤️`
+      `> © Uploaded by RAJPOOT-MD ❤️`
     );
 
   } catch (error) {
