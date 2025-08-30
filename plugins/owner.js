@@ -29,8 +29,8 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'PROxABDULLAH-MD' }, // Image URL from your request
-            caption: `╭━━〔 *PROxABDULLAH-MD* 〕━━┈⊷
+            image: { url: 'RAJPOOT-MD' }, // Image URL from your request
+            caption: `╭━━〔 *RAJPOOT-MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -38,14 +38,14 @@ async (conn, mek, m, { from }) => {
 ┃◈┃• *Version*: 2.0.0 Beta
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ PROxABDULLAH-MD ❣️*`, // Display the owner's details
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAJPOOT-MD❣️*`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363403870276377@newsletter',
-                    newsletterName: '*PROxABDULLAH-MD*',
+                    newsletterJid: '120363421154527865@newsletter',
+                    newsletterName: '*RAJPOOT-MD*',
                     serverMessageId: 143
                 }            
             }
